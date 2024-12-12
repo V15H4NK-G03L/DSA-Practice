@@ -1,11 +1,14 @@
 trigger:
 - main
 
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+pool: my-computer
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+jobs:
+- job: BuildAndTest
+  steps:
+  - task: PowerShell@2
+    inputs:
+      targetType: 'inline'
+      script: |
+        Write-Host "Hello, world!"
+        # Add your build and test scripts here
