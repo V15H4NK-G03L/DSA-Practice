@@ -1,0 +1,14 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+jobs:
+- job: SimpleJob
+  steps:
+  - task: PowerShell@2
+    inputs:
+      targetType: 'inline'
+      script: |
+        Write-Host "A file was added to the repository!"
