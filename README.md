@@ -1,3 +1,3 @@
-[![Board Status](https://dev.azure.com/vg-projects-org/b1399e24-5e8d-4cac-9467-98bb555a4fa8/d8c6ef26-931a-412f-bae4-0d265b7f1180/_apis/work/boardbadge/e973676a-b4e7-4235-a111-de824bacb690)](https://dev.azure.com/vg-projects-org/b1399e24-5e8d-4cac-9467-98bb555a4fa8/_boards/board/t/d8c6ef26-931a-412f-bae4-0d265b7f1180/Microsoft.RequirementCategory)
+[![Board Status](https://dev.azure.com/development-1/22634127-57dc-4bf4-bde6-3ff7ae6ace32/1b083f43-f66b-4b55-ac5a-a1839e1e06de/_apis/work/boardbadge/e5916ceb-7399-475c-a634-005b80548d3c?columnOptions=1)](https://dev.azure.com/development-1/22634127-57dc-4bf4-bde6-3ff7ae6ace32/_boards/board/t/1b083f43-f66b-4b55-ac5a-a1839e1e06de/Issues/)
 
 My DSA Practice Problems
