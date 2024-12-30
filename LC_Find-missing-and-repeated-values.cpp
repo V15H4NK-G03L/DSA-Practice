@@ -10,14 +10,14 @@ public:
     vector<int> findMissingAndRepeatedValues(vector<vector<int>>& grid) {
         vector<int> ans;
         int a=0,b=0,c=0;
-        for(int q=1;q<(size(grid)*size(grid))+1;q++){
+        for(int q=1;q<(grid.size()*grid.size())+1;q++){
             b += q;
         }
-        //cout << size(grid) << endl;
-        for(int i=0;i<size(grid);i++){
-            for(int j=0;j<size(grid);j++){
-                for(int x=0;x<size(grid);x++){
-                    for(int y=0;y<size(grid);y++){
+        //cout << grid.size() << endl;
+        for(int i=0;i<grid.size();i++){
+            for(int j=0;j<grid.size();j++){
+                for(int x=0;x<grid.size();x++){
+                    for(int y=0;y<grid.size();y++){
                         // cout << i << " " << x << " " << j << " " << y << endl;
                         // cout << grid[i][j] << " " << grid[x][y] << endl;
                         if(i==x && j==y){
@@ -41,5 +41,3 @@ public:
         return ans;
     }
 };
-
-//Accepted
