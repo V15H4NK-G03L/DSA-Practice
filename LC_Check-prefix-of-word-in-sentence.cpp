@@ -23,7 +23,7 @@ public:
             }
         }
 
-        if(searchWord.length()==count){return wordIndex;}
+        if(searchWord.length()==count){ return wordIndex; }
 
         return -1;
     }
